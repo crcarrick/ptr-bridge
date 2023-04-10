@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ui:dev",
+      "type": "shell",
+      "command": "pnpm run",
+      "args": ["dev"],
+      "isBackground": true
+    },
+    {
+      "label": "ui:build",
+      "type": "shell",
+      "command": "pnpm run",
+      "args": ["build"],
+      "isBackground": true
+    }
+  ]
+}
